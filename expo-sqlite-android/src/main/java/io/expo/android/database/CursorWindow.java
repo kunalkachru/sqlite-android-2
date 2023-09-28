@@ -30,7 +30,8 @@ public class CursorWindow extends SQLiteClosable {
 
     //private static final int WINDOW_SIZE_KB = 2048;
     //private static final int WINDOW_SIZE_KB = 10240;
-    private static final int WINDOW_SIZE_KB = 20480;
+    //private static final int WINDOW_SIZE_KB = 20480;
+    private static final int WINDOW_SIZE_KB = 15360;
 
     /** The cursor window size. resource xml file specifies the value in kB.
      * convert it to bytes here by multiplying with 1024.
